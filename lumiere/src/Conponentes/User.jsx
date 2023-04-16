@@ -20,7 +20,6 @@ function User (){
                         <span className='iten-user'>Sair</span>
                     </div>
                 </div>
-                
             </div>
         </div>
     )

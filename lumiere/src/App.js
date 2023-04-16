@@ -1,5 +1,6 @@
-import Header from './Conponentes/Header.jsx';
-import './stylesheets/home.css'
+import Header from './Conponentes/Header';
+
+import './stylesheets/home.css';
 
 function App() {
   return (
