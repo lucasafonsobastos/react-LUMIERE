@@ -1,9 +1,9 @@
-import Header from "./Conponentes/Header.jsx";
+import Header from './Conponentes/Header.jsx';
 import './stylesheets/home.css'
 
 function App() {
   return (
-      <div className="App">
+      <div className='App'>
           <Header></Header>
       </div>
   );

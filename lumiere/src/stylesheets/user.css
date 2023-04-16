@@ -1,0 +1,126 @@
+::-webkit-scrollbar {
+    width: 5px;
+    background: gray;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkred;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+}
+
+span.iten-user {
+    font-size: large;
+    color: rgb(196, 196, 196);
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+span.iten-user.nome {
+    font-size: small;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.content-user {
+    height: auto;
+    max-height: calc(100vh - 40px);
+    padding: 0px 20px;
+    width: 240px;
+    z-index: 10;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    overflow: hidden;
+}
+
+.decorar-linha {
+    height: 3px;
+    background-color: gray;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.user-menu {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 240px;
+    z-index: 0;
+    height: 100%;
+    max-height: calc(100vh - 135px);
+    overflow: hidden auto;
+    padding-top: 1rem;
+}
+
+img.ico-user {
+    width: 4rem;
+    padding: .5rem 2rem;
+}
+
+.content-username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.div-content-user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 .1rem;
+}
+
+.div-content-user:hover .user-menu{
+    display: flex;
+    animation: deslizar .2s linear;
+}
+
+.div-content-user:hover {
+    border-radius: 10px;
+}
+
+.content-user:hover {
+    border-radius: 10px;
+    transition-duration: 300ms;
+    transition-property: max-height, height, padding;
+    transition-timing-function: ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 18px 0px;
+    background: rgb(19, 19, 19);
+    border: 1px solid rgba(151, 151, 151, 0.34);
+    margin-bottom: 2rem;
+    
+}
+
+.iten-user:hover {
+    color: white;
+}
+
+@keyframes deslizar {
+    0% {
+        transform:translateY(-10%);
+    }
+
+    100% {
+        transform:translateY(0%);
+    }
+}
+
