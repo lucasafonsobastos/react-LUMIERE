@@ -1,4 +1,4 @@
-import Header from './Conponentes/Header';
+import Header from './Conponentes/Header.jsx'
 
 import './stylesheets/home.css';
 
