@@ -1,11 +1,13 @@
-import Header from './Conponentes/Header.jsx'
+import Header from './Conponentes/header.jsx';
+import Home from './Conponentes/home.jsx';
 
 import './stylesheets/home.css';
 
 function App() {
   return (
       <div className='App'>
-          <Header></Header>
+          <Header />
+          <Home></Home>
       </div>
   );
 }
