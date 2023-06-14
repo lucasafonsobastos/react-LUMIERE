@@ -6,7 +6,7 @@ import filme from '../img/ico/filme.png';
 import serie from '../img/ico/tela.png';
 import pontos from '../img/ico/tres-pontos.png'
 
-import User from './user';
+import User from './User';
 
 import '../stylesheets/header.css';
 

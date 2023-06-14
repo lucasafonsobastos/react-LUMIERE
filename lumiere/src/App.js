@@ -1,5 +1,5 @@
-import Header from './Conponentes/header.jsx';
-import Home from './Conponentes/home.jsx';
+import Header from './Components/Header.jsx';
+import Home from './Components/home';
 
 import './stylesheets/home.css';
 
